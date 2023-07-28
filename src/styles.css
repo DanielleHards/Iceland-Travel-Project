@@ -1,8 +1,12 @@
 body {
   font-family: "Poppins";
-  background: #040907;
+  background: #240041;
 }
 .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+section {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -49,7 +53,50 @@ header a {
   margin-top: 32px;
   display: inline-block;
 }
-@media (max-width: 900px) {
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+footer {
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.8),
+      rgba(39, 32, 68, 0.8)
+    ),
+    url("../images/boat.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 50px;
+}
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.8;
+  margin-right: 20px;
+}
+footer ul {
+  padding: 0 50px;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+.end-block {
+  margin: 0auto;
+}
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
