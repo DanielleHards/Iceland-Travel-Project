@@ -16,6 +16,8 @@ section.secondary {
 }
 section.secondary img {
   width: 250px;
+  display: block;
+  margin: 0 auto;
 }
 .card {
   background-color: white;
@@ -38,11 +40,14 @@ section.secondary img {
 .card-footer {
   padding: 30px;
 }
+.church {
+  margin-top: 120px;
+}
 .snorkle {
   margin-top: 86px;
 }
 .waterfall {
-  margin-top: 233px;
+  margin-top: 252px;
 }
 .btn {
   display: block;
@@ -187,7 +192,6 @@ footer h3 {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
-  padding: 0 40px;
 }
 footer p {
   font-weight: 400;
@@ -195,18 +199,19 @@ footer p {
   line-height: 24px;
   opacity: 0.8;
 }
-
+footer ul {
+  text-align: left;
+}
 footer li {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 footer a {
   color: white;
   opacity: 0.7;
 }
 .end-block {
-  margin: 0auto;
+  text-align: center;
+  margin-top: 0;
 }
 @media (max-width: 960px) {
   header {
@@ -230,11 +235,5 @@ footer a {
   }
   main {
     padding: 0;
-  }
-  .card-header img {
-    display: none;
-  }
-  .embed {
-    aspect-ratio: 16/9;
   }
 }
