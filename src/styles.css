@@ -170,6 +170,9 @@ main p {
 .grid-3-columns-cards {
   grid-template-columns: 1fr 1fr 1fr;
 }
+.instagram-embeds {
+  padding: 30px 0;
+}
 footer {
   color: white;
   background-image: linear-gradient(
