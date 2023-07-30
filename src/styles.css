@@ -3,13 +3,56 @@ body {
   background: #240041;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+section.secondary {
+  background: #f8f8f8;
+}
+section.secondary img {
+  max-width: 250px;
+}
+.card {
+  background-color: white;
+  margin: 30px 0;
+}
+.card img {
+  display: block;
+  margin: 0 auto;
+}
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 30px;
+}
+.snorkle {
+  margin-top: 86px;
+}
+.waterfall {
+  margin-top: 233px;
+}
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
@@ -62,6 +105,7 @@ main {
   max-width: 500px;
   padding-top: 75px;
   max-width: 100%;
+  display: block;
 }
 main h2 {
   font-weight: 700;
@@ -80,7 +124,24 @@ main h3 {
   color: #272044;
   margin: 0;
 }
+main h4 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+main h5 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
 main p {
+  text-align: center;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -98,6 +159,9 @@ main p {
 }
 .grid-3-columns {
   grid-template-columns: 1fr 2fr 2fr;
+}
+.grid-3-columns-cards {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 footer {
   color: white;
